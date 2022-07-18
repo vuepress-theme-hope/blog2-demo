@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="generator" content="VuePress 2.0.0-beta.49">
+    <style>
+      :root {
+        --c-bg: #fff;
+      }
+      html.dark {
+        --c-bg: #22272e;
+      }
+      html, body {
+        background-color: var(--c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme');
+			const systemDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			if (userMode === 'dark' || (userMode !== 'light' && systemDarkMode)) {
+				document.documentElement.classList.toggle('dark', true);
+			}
+    </script>
+    <title>Blog2</title><meta name="description" content="Blog plugin for VuePress2">
+    <link rel="modulepreload" href="/blog2-demo/assets/app.e0c5be23.js"><link rel="modulepreload" href="/blog2-demo/assets/404.html.167f9f47.js"><link rel="modulepreload" href="/blog2-demo/assets/404.html.ce538133.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.99060356.js"><link rel="prefetch" href="/blog2-demo/assets/page1.html.cf0c8032.js"><link rel="prefetch" href="/blog2-demo/assets/page2.html.620a8d4a.js"><link rel="prefetch" href="/blog2-demo/assets/archive1.html.6bd6199c.js"><link rel="prefetch" href="/blog2-demo/assets/archive2.html.ddcd9c79.js"><link rel="prefetch" href="/blog2-demo/assets/article1.html.143d1a83.js"><link rel="prefetch" href="/blog2-demo/assets/article10.html.445d8c95.js"><link rel="prefetch" href="/blog2-demo/assets/article11.html.1e78481b.js"><link rel="prefetch" href="/blog2-demo/assets/article12.html.68ee43ff.js"><link rel="prefetch" href="/blog2-demo/assets/article2.html.4c3be35c.js"><link rel="prefetch" href="/blog2-demo/assets/article3.html.f8216c31.js"><link rel="prefetch" href="/blog2-demo/assets/article4.html.2a4740f2.js"><link rel="prefetch" href="/blog2-demo/assets/article5.html.3cbca6d0.js"><link rel="prefetch" href="/blog2-demo/assets/article6.html.52ccfa21.js"><link rel="prefetch" href="/blog2-demo/assets/article7.html.3bffb72c.js"><link rel="prefetch" href="/blog2-demo/assets/article8.html.1a55d642.js"><link rel="prefetch" href="/blog2-demo/assets/article9.html.defcedb8.js"><link rel="prefetch" href="/blog2-demo/assets/sticky.html.861e3240.js"><link rel="prefetch" href="/blog2-demo/assets/sticky2.html.c3597fc3.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.739121af.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.4ed012d2.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.895ba18d.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.39cb4764.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.c5908264.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.6a630471.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.adfb84c1.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.3dc07d06.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.bf4e6c5a.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.b9646093.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.93895013.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.91784841.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.e5bdf673.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.20d196e7.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.5f3e325f.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.bd6204ee.js"><link rel="prefetch" href="/blog2-demo/assets/page1.html.ba08cc2e.js"><link rel="prefetch" href="/blog2-demo/assets/page2.html.e32c062a.js"><link rel="prefetch" href="/blog2-demo/assets/archive1.html.f2a7a377.js"><link rel="prefetch" href="/blog2-demo/assets/archive2.html.97dcca0d.js"><link rel="prefetch" href="/blog2-demo/assets/article1.html.3add4672.js"><link rel="prefetch" href="/blog2-demo/assets/article10.html.e59f4450.js"><link rel="prefetch" href="/blog2-demo/assets/article11.html.68d36c0e.js"><link rel="prefetch" href="/blog2-demo/assets/article12.html.142d5c21.js"><link rel="prefetch" href="/blog2-demo/assets/article2.html.77e19bd8.js"><link rel="prefetch" href="/blog2-demo/assets/article3.html.317267cd.js"><link rel="prefetch" href="/blog2-demo/assets/article4.html.00423aaf.js"><link rel="prefetch" href="/blog2-demo/assets/article5.html.f487be7d.js"><link rel="prefetch" href="/blog2-demo/assets/article6.html.b4961053.js"><link rel="prefetch" href="/blog2-demo/assets/article7.html.e381332e.js"><link rel="prefetch" href="/blog2-demo/assets/article8.html.31b48520.js"><link rel="prefetch" href="/blog2-demo/assets/article9.html.0f3e2371.js"><link rel="prefetch" href="/blog2-demo/assets/sticky.html.3ad48322.js"><link rel="prefetch" href="/blog2-demo/assets/sticky2.html.4f52cc69.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.3c7b7808.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.3a230b79.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.ee67761d.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.40c79f3f.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.fe0a0f79.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.2c8c5e4b.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.39d2de4f.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.124714d5.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.07f88f1e.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.7a9eda67.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.070046fa.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.f118b8c7.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.77f56342.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.80ecd5c9.js"><link rel="prefetch" href="/blog2-demo/assets/index.html.ff355290.js"><link rel="prefetch" href="/blog2-demo/assets/404.11a8b553.js"><link rel="prefetch" href="/blog2-demo/assets/Layout.130c0e75.js"><link rel="prefetch" href="/blog2-demo/assets/Article.b89fd299.js"><link rel="prefetch" href="/blog2-demo/assets/Category.86ea14c7.js"><link rel="prefetch" href="/blog2-demo/assets/Tag.efd1b07a.js"><link rel="prefetch" href="/blog2-demo/assets/Timeline.e65e33ce.js">
+    <link rel="stylesheet" href="/blog2-demo/assets/style.02a49103.css">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="theme-container"><main class="page"><div class="theme-default-content"><h1>404</h1><blockquote>How did we get here?</blockquote><a href="/blog2-demo/" class="">Take me home</a></div></main></div><!----><!--]--></div>
+    <script type="module" src="/blog2-demo/assets/app.e0c5be23.js" defer></script>
+  </body>
+</html>
